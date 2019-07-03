@@ -3,7 +3,7 @@
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <CANCELCONFIRMATION_HEADER>
         <CANCELCONFIRMATION_INFO>
-            <ORDER_ID>453454564</ORDER_ID>
+            <ORDER_ID>2222222</ORDER_ID>
             <CANCELCONFIRMATION_DATE>2019-04-17T13:56:09+01:00</CANCELCONFIRMATION_DATE>
             <PARTIES>
                 <PARTY>
