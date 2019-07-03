@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CANCELCONFIRMATION version="2.1" xmlns="http://www.opentrans.org/XMLSchema/2.1"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <CANCELCONFIRMATION_HEADER>
+        <CANCELCONFIRMATION_INFO>
+            <ORDER_ID>192321471</ORDER_ID>
+            <CANCELCONFIRMATION_DATE>2019-04-17T13:56:09+01:00</CANCELCONFIRMATION_DATE>
+            <PARTIES>
+                <PARTY>
+                    <PARTY_ID type="buyer_specific" xmlns="http://www.bmecat.org/bmecat/2005">2210700</PARTY_ID>
+                    <PARTY_ROLE>buyer</PARTY_ROLE>
+                </PARTY>
+                <PARTY>
+                    <PARTY_ID type="buyer_specific" xmlns="http://www.bmecat.org/bmecat/2005">2808490</PARTY_ID>
+                    <PARTY_ROLE>supplier</PARTY_ROLE>
+                </PARTY>
+                <PARTY>
+                    <PARTY_ID type="buyer_specific" xmlns="http://www.bmecat.org/bmecat/2005">2210700</PARTY_ID>
+                    <PARTY_ROLE>delivery</PARTY_ROLE>
+                </PARTY>
+            </PARTIES>
+            <ORDER_PARTIES_REFERENCE>
+                <BUYER_IDREF xmlns="http://www.bmecat.org/bmecat/2005" type="buyer_specific">2210700</BUYER_IDREF>
+                <SUPPLIER_IDREF type="buyer_specific" xmlns="http://www.bmecat.org/bmecat/2005">2808490</SUPPLIER_IDREF>
+            </ORDER_PARTIES_REFERENCE>
+        </CANCELCONFIRMATION_INFO>
+    </CANCELCONFIRMATION_HEADER>
+    <CANCELCONFIRMATION_ITEM_LIST>
+        <CANCELCONFIRMATION_ITEM>
+            <LINE_ITEM_ID>1</LINE_ITEM_ID>
+            <PRODUCT_ID>
+                <SUPPLIER_PID type="supplierProductKey" xmlns="http://www.bmecat.org/bmecat/2005">1018</SUPPLIER_PID>
+                <INTERNATIONAL_PID type="gtin" xmlns="http://www.bmecat.org/bmecat/2005">05025155023631
+                </INTERNATIONAL_PID>
+                <BUYER_PID type="DgProductId" xmlns="http://www.bmecat.org/bmecat/2005">5903668</BUYER_PID>
+            </PRODUCT_ID>
+            <QUANTITY>1</QUANTITY>
+            <ORDER_UNIT xmlns="http://www.bmecat.org/bmecat/2005">C62</ORDER_UNIT>
+            <REQUESTACCEPTED>true</REQUESTACCEPTED>
+        </CANCELCONFIRMATION_ITEM>
+    </CANCELCONFIRMATION_ITEM_LIST>
+    <CANCELCONFIRMATION_SUMMARY>
+        <TOTAL_ITEM_NUM>1</TOTAL_ITEM_NUM>
+    </CANCELCONFIRMATION_SUMMARY>
+</CANCELCONFIRMATION>
