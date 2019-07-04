@@ -1,6 +1,6 @@
 linie 0.1
 linie 1
 linie 2.1
-linie 3
+linie 3.1
 linie 4
 linie 5
